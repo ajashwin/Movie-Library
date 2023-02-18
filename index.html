@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js" defer></script>  
+    <title>Movie List</title>
+</head>
+
+<body>
+    <h1>Movie List</h1>
+    <div class="box">
+    <label>Title</label>
+    <input type="text" id="title" placeholder="Enter Movie Title">
+    <label>Genre</label>
+    <input type="text" id="genre" placeholder="Enter Movie Genre">
+    <button id="search">Search</button>
+    <button id="sortByTitle">Sort by title</button>
+    <button id="sortByGenre">Sort by genre</button>
+    </div>
+    <ul id="results"></ul>
+    <h2>Movies Count</h2>
+    <ul id="count"></ul>
+    <!-- either u can put script at the end of the body or use defer at the top while giving script then only script will work -->
+</body>
+
+</html>

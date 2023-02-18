@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.box{
+    text-align: center;
+}
+body {
+    background-color: antiquewhite;
+}
+button {
+    background-color: black;
+    color: white;
+}
+label {
+    color: black;
+    font-weight: bolder;
+    
+}
